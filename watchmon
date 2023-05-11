@@ -1,0 +1,4 @@
+sudo lsof -R -i TCP -i UDP &
+sudo netstat -atu
+#
+###TO RUN: watch -c -n 1 -p -d ./watchmon
